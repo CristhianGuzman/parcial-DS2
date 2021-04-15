@@ -14,11 +14,11 @@ const Contador = ({num1, num2, nombre}) =>{
     return(
         <>
             <h1>Bienvenido</h1>
-            <h2>Numero 1= {num1}, Numero 2= {num2}</h2>
+            <h2>Numero uno= {num1}, Numero dos= {num2}</h2>
             <button onClick={() => setMensaje(`señor ${nombre} la Suma de los numeros es ${num1+num2}`)}>Sumar</button>
             <button onClick={() => setMensaje(`señor ${nombre} la Resta de los numeros es ${num1-num2}`)}>Restar</button>
 
-            <h2>{mensaje}</h2>
+            <h3>{mensaje}</h3>
         </>
     )
 
